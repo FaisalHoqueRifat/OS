@@ -8,7 +8,6 @@ int main()
     queue<int>memory;
     set<int>st;
     int page_fault = 0;
-    cout<<ref_string.size()<<endl;
     for(int i = 0; i<ref_string.size(); i++)
     {
         if(st.count(ref_string[i]) == 0)
